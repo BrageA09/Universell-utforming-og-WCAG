@@ -1,3 +1,50 @@
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .Container {
-    place-items: center;
+    display:flex;
+    justify-content: center;
+    font-family: Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+article {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lightcyan;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 350px;
+}
+
+article h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Oppgave-1 {
+    margin-top: 50px;
+    list-style-type: "A - "
+}
+
+.Oppgave-2 {
+    margin-top: 30px;
+    list-style-type: "A - "
+}
+
+.Oppgave-3 {
+    margin-top: 50px;
+    list-style-type: "A - "
+}
+
+.Question {
+    list-style-type: "Q - "
 }
